@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>{{ facility.name }}</h1>
+    <p>{{ facility.info }}</p>
+<a href="{{ url_for('home') }}">Back to Home</a>
+{% endblock %}
